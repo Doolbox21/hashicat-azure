@@ -2,9 +2,9 @@ provider "azurerm" {
   features {}
 }
 
-resource "azurerm_resource_group" "example-bd" {}
+resource "azurerm_resource_group" "example" {
   name     = "my-resources"
-  location = "Canada East"
+  location = "West Europe"
 }
 
 module "network" {
